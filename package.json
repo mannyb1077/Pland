@@ -1,0 +1,32 @@
+{
+  "name": "pland",
+  "version": "1.0.0",
+  "description": "Pland app",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyb1077/Pland.git"
+  },
+  "author": "Manny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannyb1077/Pland/issues"
+  },
+  "homepage": "https://github.com/mannyb1077/Pland#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.1",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
